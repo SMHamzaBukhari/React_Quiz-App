@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: lightgoldenrodyellow;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.container{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  color: #C9B03A;
+  font-weight: bold;
+  width: 510px;
+  height: 240px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+.container > .answersDisplay{
+margin-top: 10px;
+display: flex;
+justify-content: space-around;
+grid-gap: 10px;
+flex-wrap: wrap;
+}
+button{
+  background-color: #C9B03A;
+  color: #FFF8D9;
+  }
+.container > .answersDisplay > button{
+width: 200px;
+padding: 5px;
+border-radius: 20px;
+outline: none;
+border: none;
+box-shadow: 0 4px #999;
+}
+.container > .answersDisplay > button:active{
+box-shadow: 0 1px #666;
+transform: translateY(2px);
+}
+.container > .answersDisplay > button:hover{
+  background-color: #b19d39;
+}
+.container .btns button{
+  margin-top: 10px;
+padding:  5px 10px;
+border-radius: 20px;
+outline: none;
+border: none;
+
+}
+.container .btns button:active{
+  transform: translateY(1px);
+}
+.container .btns button:hover{
+  background-color: #b19d39;
+}
+.container .questionDisplay{
+  height: 70px;
+}
+
+.resultcontainer{
+  background-color: #fff;
+  color: #C9B03A;
+  width: 90%;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: x-large;
+  
+}
+.resultcontainer h6{
+  margin: 10px;
+}
+button:active{
+  transition: all 2s;
+}
+.resultQuestions{
+  text-align: left;
+}
+.resultQuestions li{
+  padding-left: 10px;
+  font-size: 0.45em;
+}
+#listnone{
+  list-style: none;
+}
